@@ -34,7 +34,7 @@ async def start(b, m):
             except UserNotParticipant:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Please Join My Updates Channel to use this Bot!**\n\nDue to Overload, Only Channel Subscribers can use the Bot!",
+                    text="**Please Join My Movies Group to use this Bot!**\n\nDue to Overload, Only Movies Group members can use the Bot!",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -77,7 +77,7 @@ async def start(b, m):
             except UserNotParticipant:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Please Join My Updates Channel to use this Bot!**\n\nDue to Overload, Only Channel Subscribers can use the Bot!",
+                    text="**Please Join My Movies Group to use this Bot!**\n\nDue to Overload, Only Movies Group members can use the Bot!",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -153,7 +153,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="**Please Join My Updates Channel to use this Bot!**\n\nDue to Overload, Only Channel Subscribers can use the Bot!",
+                text="**Please Join My Movies Group to use this Bot!**\n\nDue to Overload, Only Movies Group members can use the Bot!",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
